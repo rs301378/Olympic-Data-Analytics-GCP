@@ -41,6 +41,10 @@ def download_files(urls):
         # Download each file
         for url in urls:
             response = requests.get(url, allow_redirects=True)
+            '''
+            BytesIO is used to convert the content obtained from the HTTP response (response.content) into a file-like object 
+            that can be easily consumed by the upload_from_file method of the Google Cloud Storage client.
+            '''
             content = BytesIO(response.content)
 
             # Extracting the filename from the URL
