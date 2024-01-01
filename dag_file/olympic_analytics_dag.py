@@ -65,7 +65,7 @@ dag = DAG(
     dag_id='Olympic_Data_Analytics_GCP',
     default_args=default_args,
     description='End to End Olympic Data Analytics Project on GCP',
-    schedule_interval='30 9 * * *',
+    schedule_interval=None,
 )
 
 start_task = DummyOperator(
