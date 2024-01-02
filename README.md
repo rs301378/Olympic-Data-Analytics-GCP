@@ -13,6 +13,8 @@ This dataset contains the details of the Athletes, Coaches, Teams participating 
   - [Prerequisites](#prerequisites)
 - [Data Ingestion](#data-ingestion)
 - [Data Processing](#data-processing)
+- [Data Store](#data-store)
+- [Analytics](#analytics)
 - [Conclusion](#conclusion)
 
 ## Introduction
@@ -68,6 +70,9 @@ The data processing stage involves cleaning and transforming raw Olympic data in
 
 ![Cloud Storage](images/cloud_storage.png)
 
+## Analytics
+
+![Big Query](images/big_query.png)
 
 ## Conclusion
 
