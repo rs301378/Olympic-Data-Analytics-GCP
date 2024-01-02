@@ -21,7 +21,7 @@ The Olympic Data Analysis on GCP project demonstrates how to build an end-to-end
 
 ## Architecture
 
-![Architecture](images/arch.png)
+![Architecture](images/gcp_architecture_olymp.png)
 
 The architecture of the project consists of the following components:
 
