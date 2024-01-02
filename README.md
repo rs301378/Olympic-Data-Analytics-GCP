@@ -27,13 +27,13 @@ The architecture of the project consists of the following components:
 
 - **Dataproc**: It provides a collaborative and interactive environment for running Spark-based jobs.
 
+- **Airflow**: Platform to programmatically author, schedule, and monitor workflows.
+
 - **Composer**: Manages and orchestrates the data workflow. It is responsible for data ingestion from various sources, data transformation, and scheduling of jobs
 
 - **Cloud Storage**: Serves as the data lake for storing raw and processed data. It can also host intermediate results generated during the analysis.
 
 - **Big Query**: Stores the cleaned and transformed data, making it accessible for visualization and reporting.
-
-- **Airflow**: Platform to programmatically author, schedule, and monitor workflows.
 
 ## Technologies Used
 
@@ -42,8 +42,6 @@ The architecture of the project consists of the following components:
 - Airflow
 - GCP Cloud Storage
 - GCP Big Query
-
-![Resource Group](images/resource_group.png)
 
 ## Getting Started
 
@@ -56,17 +54,19 @@ The architecture of the project consists of the following components:
 
 ## Data Ingestion
 
-![Airflow Pipeline](images/DataFactory.png)
+![Airflow Pipeline](images/airflow_pipeline.png)
 
 ## Data Processing
 
-![Dataproc cluster notebook](images/DataBricks.png)
+![Dataproc](images/dataproc.png)
+
+![Dataproc cluster notebook](images/data_proc_notebook.png)
 
 The data processing stage involves cleaning and transforming raw Olympic data into a structured format suitable for analysis. This step takes advantage of GCP Dataproc distributed computing capabilities for efficient processing.
 
 ## Data Store
 
-![Cloud Storage](images/DataBricks.png)
+![Cloud Storage](images/cloud_storage.png)
 
 
 ## Conclusion
